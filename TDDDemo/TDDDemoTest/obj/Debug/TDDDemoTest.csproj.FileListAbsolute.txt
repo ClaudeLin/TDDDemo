@@ -1,0 +1,10 @@
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.dll
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.pdb
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.csprojResolveAssemblyReference.cache
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.dll
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.pdb
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\TDDDemo.dll
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\TDDDemo.pdb
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\Moq.dll
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\Moq.xml
+C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.dll.config
