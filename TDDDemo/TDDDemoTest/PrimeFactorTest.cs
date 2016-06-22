@@ -134,5 +134,17 @@ namespace TDDDemoTest
 
 			CollectionAssert.AreEqual(expect, actual);
 		}
+
+		[TestMethod]
+		public void Test_MaxInt()
+		{
+			expect.Add(int.MaxValue);
+			
+			inputNum = int.MaxValue;
+
+			actual = pf.GetResult(inputNum);
+
+			CollectionAssert.AreEqual(expect, actual);
+		}
 	}
 }
