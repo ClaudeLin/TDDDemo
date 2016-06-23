@@ -64,5 +64,16 @@ namespace TDDDemoTest
 
 			Assert.AreEqual(expect,actual);
 		}
+
+		[TestMethod]
+		public void Test_Two_Multiplied_Six_Division_Four()
+		{
+			expect = 3;
+			inputString = "2*6/4";
+
+			actual = sc.Calculate(inputString);
+
+			Assert.AreEqual(expect,actual);
+		}
 	}
 }
