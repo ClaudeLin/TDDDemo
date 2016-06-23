@@ -134,7 +134,7 @@ namespace TDDDemoTest
 
 			CollectionAssert.AreEqual(expect, actual);
 		}
-
+		[Ignore]
 		[TestMethod]
 		public void Test_MaxInt()
 		{

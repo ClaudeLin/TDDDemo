@@ -3,3 +3,8 @@ C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemo\bin\
 C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemo\obj\Debug\TDDDemo.csprojResolveAssemblyReference.cache
 C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemo\obj\Debug\TDDDemo.dll
 C:\Users\claude.lin31\Documents\Visual Studio 2013\Projects\TDDDemo\TDDDemo\obj\Debug\TDDDemo.pdb
+C:\Users\claude.lin31\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\bin\Debug\TDDDemo.dll
+C:\Users\claude.lin31\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\bin\Debug\TDDDemo.pdb
+C:\Users\claude.lin31\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.csprojResolveAssemblyReference.cache
+C:\Users\claude.lin31\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.dll
+C:\Users\claude.lin31\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.pdb
