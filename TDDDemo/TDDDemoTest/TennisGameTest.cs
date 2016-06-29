@@ -129,5 +129,69 @@ namespace TDDDemoTest
 
 			Assert.AreEqual(expect,actual);
 		}
+
+		[TestMethod]
+		public void Test_AdvantageReceiver()
+		{
+			expect = "Advantage Receiver";
+
+			tg.ServeGetScore(3);
+			tg.ReceiverGetScore(3);
+			tg.ReceiverGetScore();
+			actual = tg.GetGameScore();
+
+			Assert.AreEqual(expect,actual);
+		}
+
+		[TestMethod]
+		public void Test_ServeAdvAdnBackToDeuce()
+		{
+			expect = "Deuce";
+
+			tg.ServeGetScore(3);
+			tg.ReceiverGetScore(3);
+			tg.ServeGetScore();
+			tg.ReceiverGetScore();
+			actual = tg.GetGameScore();
+
+			Assert.AreEqual(expect,actual);
+		}
+
+		[TestMethod]
+		public void Test_ReceiverAdvAdnBackToDeuce()
+		{
+			expect = "Deuce";
+
+			tg.ServeGetScore(3);
+			tg.ReceiverGetScore(3);
+			tg.ReceiverGetScore();
+			tg.ServeGetScore();
+			actual = tg.GetGameScore();
+
+			Assert.AreEqual(expect, actual);
+		}
+
+		[TestMethod]
+		public void Test_ServeWinDirectly()
+		{
+			expect = "Serve Win";
+
+			tg.ServeGetScore(4);
+			actual = tg.GetGameScore();
+
+			Assert.AreEqual(expect,actual);
+		}
+
+		[TestMethod]
+		public void Test_ReceiverWinAfterDeuce()
+		{
+			expect = "Receiver Win";
+			tg.ReceiverGetScore(3);
+			tg.ServeGetScore(3);
+			tg.ReceiverGetScore(2);
+			actual = tg.GetGameScore();
+
+			Assert.AreEqual(expect,actual);
+		}
 	}
 }
