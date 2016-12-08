@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="LeapYearsTest.cs" />
     <Compile Include="PrimeFactorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringCalculatorTest.cs" />
