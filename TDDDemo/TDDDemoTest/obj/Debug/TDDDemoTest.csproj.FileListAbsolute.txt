@@ -30,3 +30,15 @@ C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDD
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.csprojResolveAssemblyReference.cache
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.dll
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.pdb
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.dll.config
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\TDDDemoTest.pdb
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\Moq.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\TDDDemo.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\TDDDemo.pdb
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\Moq.xml
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.csprojResolveAssemblyReference.cache
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemoTest\obj\Debug\TDDDemoTest.pdb

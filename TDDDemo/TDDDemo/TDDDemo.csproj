@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="IPrimeFactor.cs" />
     <Compile Include="LeapYears.cs" />
+    <Compile Include="OneHundredDoors.cs" />
     <Compile Include="PrimeFactor.cs" />
     <Compile Include="PrimeFactorCounter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

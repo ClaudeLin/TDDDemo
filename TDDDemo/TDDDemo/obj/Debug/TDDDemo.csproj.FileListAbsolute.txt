@@ -13,3 +13,8 @@ C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDD
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.csprojResolveAssemblyReference.cache
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.dll
 C:\Users\Chise\Documents\Visual Studio 2015\Projects\TDDDemo\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.pdb
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\bin\Debug\TDDDemo.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\bin\Debug\TDDDemo.pdb
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.csprojResolveAssemblyReference.cache
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.dll
+C:\Users\Chise\Documents\GitHub\TDDDemo\TDDDemo\TDDDemo\obj\Debug\TDDDemo.pdb
