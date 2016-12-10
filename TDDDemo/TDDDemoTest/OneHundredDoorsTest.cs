@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TDDDemo;
 
 namespace TDDDemoTest
@@ -16,10 +11,10 @@ namespace TDDDemoTest
         [TestMethod]
         public void TestVisitOneTime()
         {
-            doors =new OneHundredDoors();
+            doors = new OneHundredDoors();
             doors.Visit();
 
-            actual = doors.GetLastDoorStatus();
+            actual = doors.GetDoorStatus();
 
             Assert.IsTrue(actual);
         }
@@ -27,11 +22,11 @@ namespace TDDDemoTest
         [TestMethod]
         public void TestVisitTwoTimes()
         {
-            doors=new OneHundredDoors();
+            doors = new OneHundredDoors();
             doors.Visit(2);
-            
 
-            actual = doors.GetLastDoorStatus();
+
+            actual = doors.GetDoorStatus();
 
             Assert.IsFalse(actual);
         }
@@ -41,9 +36,9 @@ namespace TDDDemoTest
         {
             doors = new OneHundredDoors();
             doors.Visit(3);
-           
 
-            actual = doors.GetLastDoorStatus();
+
+            actual = doors.GetDoorStatus();
 
             Assert.IsFalse(actual);
         }
@@ -55,7 +50,7 @@ namespace TDDDemoTest
             doors.Visit(4);
 
 
-            actual = doors.GetLastDoorStatus();
+            actual = doors.GetDoorStatus();
 
             Assert.IsTrue(actual);
         }
@@ -68,10 +63,20 @@ namespace TDDDemoTest
             doors.Visit(100);
 
 
-            actual = doors.GetLastDoorStatus();
+            actual = doors.GetDoorStatus();
 
             Assert.IsTrue(actual);
         }
 
+        [TestMethod]
+        public void TestVisit50thDoorWith100Times()
+        {
+            doors = new OneHundredDoors();
+            doors.Visit(100);
+
+            actual = doors.GetDoorStatus(50);
+
+            Assert.IsFalse(actual);
+        }
     }
 }
