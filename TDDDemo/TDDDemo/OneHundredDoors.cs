@@ -20,18 +20,28 @@ namespace TDDDemo
             }
         }
 
-        public void Visit(int visitCount = 1)
+        public void Visit(int visitTimes = 1)
         {
             var doorsCount = _doorsStatusDictionary.Count;
-            for (var i = 1; i <= visitCount; i++)
+            for (var visitCount = 1; visitCount <= visitTimes; visitCount++)
             {
-                for (var j = 1; j <= doorsCount; j++)
-                {
-                    if (j % i == 0)
-                    {
-                        _doorsStatusDictionary[j] = !_doorsStatusDictionary[j];
-                    }
-                }
+                VisitDoors(visitCount, doorsCount);
+            }
+        }
+
+        private void VisitDoors(int visitCount, int doorsCount)
+        {
+            for (var dictionaryPoint = visitCount; dictionaryPoint <= doorsCount; dictionaryPoint++)
+            {
+                SetDoorStatus(dictionaryPoint, visitCount);
+            }
+        }
+
+        private void SetDoorStatus(int dictionaryPoint, int visitCount)
+        {
+            if (dictionaryPoint%visitCount == 0)
+            {
+                _doorsStatusDictionary[dictionaryPoint] = !_doorsStatusDictionary[dictionaryPoint];
             }
         }
 

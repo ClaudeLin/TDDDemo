@@ -78,5 +78,16 @@ namespace TDDDemoTest
 
             Assert.IsFalse(actual);
         }
+
+        [TestMethod]
+        public void Test1000Doors()
+        {
+            doors = new OneHundredDoors(1000);
+            doors.Visit(1000);
+
+            actual = doors.GetDoorStatus(1000);
+
+            Assert.IsFalse(actual);
+        }
     }
 }
