@@ -7,76 +7,58 @@ namespace TDDDemoTest
     public class OneHundredDoorsTest
     {
         private OneHundredDoors doors;
-        private bool actual;
+
+	    [TestInitialize]
+	    public void TestInit()
+	    {
+		    doors=new OneHundredDoors();
+	    }
+
         [TestMethod]
         public void TestVisitOneTime()
         {
-            doors = new OneHundredDoors();
             doors.Visit();
-
-            actual = doors.GetDoorStatus();
-
-            Assert.IsTrue(actual);
+			Assert.IsTrue(doors.GetDoorStatus());
         }
 
         [TestMethod]
         public void TestVisitTwoTimes()
         {
-            doors = new OneHundredDoors();
             doors.Visit(2);
 
-
-            actual = doors.GetDoorStatus();
-
-            Assert.IsFalse(actual);
+			Assert.IsFalse(doors.GetDoorStatus());
         }
 
         [TestMethod]
         public void TestVisitThreeTimes()
         {
-            doors = new OneHundredDoors();
             doors.Visit(3);
 
-
-            actual = doors.GetDoorStatus();
-
-            Assert.IsFalse(actual);
+			Assert.IsFalse(doors.GetDoorStatus());
         }
 
         [TestMethod]
         public void TestVisitFourTimes()
         {
-            doors = new OneHundredDoors();
             doors.Visit(4);
 
-
-            actual = doors.GetDoorStatus();
-
-            Assert.IsTrue(actual);
+			Assert.IsTrue(doors.GetDoorStatus());
         }
-
 
         [TestMethod]
         public void TestVisit100Times()
         {
-            doors = new OneHundredDoors();
             doors.Visit(100);
 
-
-            actual = doors.GetDoorStatus();
-
-            Assert.IsTrue(actual);
+			Assert.IsTrue(doors.GetDoorStatus());
         }
 
         [TestMethod]
         public void TestVisit50thDoorWith100Times()
         {
-            doors = new OneHundredDoors();
             doors.Visit(100);
 
-            actual = doors.GetDoorStatus(50);
-
-            Assert.IsFalse(actual);
+			Assert.IsFalse(doors.GetDoorStatus(50));
         }
 
         [TestMethod]
@@ -85,9 +67,7 @@ namespace TDDDemoTest
             doors = new OneHundredDoors(1000);
             doors.Visit(1000);
 
-            actual = doors.GetDoorStatus(1000);
-
-            Assert.IsFalse(actual);
+			Assert.IsFalse(doors.GetDoorStatus(1000));
         }
     }
 }
